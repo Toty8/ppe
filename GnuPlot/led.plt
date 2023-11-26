@@ -8,5 +8,4 @@ set title 'Волт-Амперни Характеристики на Свето�
 set xrange [0:5]
 plot "led.dat" using 2:1 title 'Инфрачервен' with linespoints smooth bezier lt rgb "black", \
 "led.dat" using 3:1 title 'Червен' with linespoints smooth bezier lt rgb "red", \
-"led.dat" using 4:1 title 'Бял' with linespoints smooth bezier lt rgb "white", \
-"led.dat" using 5:1 title 'Син' with linespoints smooth bezier lt rgb "blue"
+"led.dat" using 4:1 title 'Син' with linespoints smooth bezier lt rgb "blue"
